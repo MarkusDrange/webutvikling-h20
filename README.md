@@ -64,16 +64,9 @@ I tillegg til bruk av React Native sine egne komponenter, er det tatt i bruk tre
 - https://www.npmjs.com/package/react-native-check-box
 - https://fantasy.premierleague.com/
 - https://www.transfermarkt.co.uk/
-<<<<<<< HEAD
+
 
 ### Siste push til master
 La til tekstforklaring til de ulike tallene i modal-komponentene i PlayerInfo-komponenten etter innleveringsfrist, da de ved uhell hadde blitt fjernet i en merge. Dette ble gjort i samråd med Trond. 
 
 
-
-
-
-
-
-=======
->>>>>>> 94c55e5fb2652f2782058e51823ff64c884ab74f
