@@ -62,6 +62,9 @@ I tillegg til bruk av React Native sine egne komponenter, er det tatt i bruk tre
 - https://fantasy.premierleague.com/
 - https://www.transfermarkt.co.uk/
 
+### Siste push til master
+La til tekstforklaring til de ulike tallene i modal-komponentene i PlayerInfo-komponenten etter innleveringsfrist, da de ved uhell hadde blitt fjernet i en merge. Dette ble gjort i samråd med Trond. 
+
 
 
 

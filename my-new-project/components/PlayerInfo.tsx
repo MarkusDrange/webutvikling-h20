@@ -43,12 +43,12 @@ export const Player = (props:playerProps) => {
                             source={{uri: props.player.team_url}}
                         />
                         <Text style={styles.modalText}>{props.player.team}</Text>
-                        <Text style={styles.modalText}>{props.player.goals_scored}</Text>
-                        <Text style={styles.modalText}>{props.player.clean_sheets}</Text>
-                        <Text style={styles.modalText}>{props.player.yellow_cards}</Text>
-                        <Text style={styles.modalText}>{props.player.red_cards}</Text>
-                        <Text style={styles.modalText}>{props.player.own_goals}</Text>
-                        <Text style={styles.modalText}>{props.player.news}</Text>
+                        <Text style={styles.modalText}>Goal scored: {props.player.goals_scored}</Text>
+                        <Text style={styles.modalText}>Clean sheets: {props.player.clean_sheets}</Text>
+                        <Text style={styles.modalText}>Yellow cards: {props.player.yellow_cards}</Text>
+                        <Text style={styles.modalText}>Red cards: {props.player.red_cards}</Text>
+                        <Text style={styles.modalText}>Own goals: {props.player.own_goals}</Text>
+                        <Text style={styles.modalText}>News: {props.player.news}</Text>
                         <MaterialIcons
                             style={styles.closeButton}
                             name={'close'}
